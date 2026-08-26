@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: tiffinhub
+
+spec:
+  replicas: 3
+
+  selector:
+    matchLabels:
+      app: tiffinhub
+
+  template:
+    metadata:
+      labels:
+        app: tiffinhub
+
+    spec:
+      containers:
+        - name: tiffinhub
+          image: iamhemanth227/tiffinhub:latest
+          ports:
+            - containerPort: 3000
