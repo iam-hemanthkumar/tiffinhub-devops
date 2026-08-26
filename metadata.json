@@ -1,0 +1,6 @@
+{
+  "name": "TiffinHub",
+  "description": "A lightweight restaurant ordering web application for unlimited tiffins and meals with customer tokens, time-of-day menus, and simulated payments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
